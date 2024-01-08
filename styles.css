@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+.title h1{
+    font-family: Comic Sans MS, Comic Sans, cursive;
+    font-size: 40px;
+    color: #ffffff;
+}
+
+.list_menu a{
+    font-family: Arial, sans-serif;
+    font-size: 25px;
+    color: #95db95;
+    border-left: 2px solid #ffffff;
+    padding-left: 5px ;
+    transition: all 0.2s ease;
+}
+
+.list_menu a:hover{
+    border-left: 2px solid #000000;
+    padding-left: 10px ;
+    transition: all 0.2s ease;
+    color: #000000;
+}
+
+
+.footer_menu p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: #000000;
+}
+
+.list_menu li{
+    margin: 25px 0;
+    color: #fcfffc;
+
+}
+.menu {
+    padding: 25vh 50px;
+    position: fixed;
+    background: rgba(20, 20, 20, 0.5);
+    height: 100vh;
+    backdrop-filter: blur(16px); 
+    width: 420px;
+}
+
+body {
+    height: 100vh;
+
+    background-image: url(фончик.jpg);
+    }
+
+.content {
+    color: #fcfffc;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    width: auto;
+    height: auto;
+    border-left: 2px solid #000000;
+    margin-left: 422px;
+    word-wrap: break-word;
+    hyphens: manual;
+    
+}
+
+p{
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    hyphens: manual;
+}
+h3{
+
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+}
+
+table{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #000000;
+    text-align: center;
+
+}
+td {
+    min-width: 100px; 
+    height: 25px;
+    background-color: #ffffff;
+    color: #000000;
+    font-weight: normal;
+   }
+
+
+input{
+    text-align: center;
+    background: transparent;
+    height: calc(100%);
+    width: calc(100%);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: #000000;
+    
+}
+
+.profile-pic {
+    width: 200px; height: 200px; border-radius: 100%; 
+    background-image: url('ГОРИН.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.tabcontent p{
+    margin-top: 10px;
+    font-size: 25px;
+    font-family: Times, Times New Roman, serif ;
+}
+
+@font-face {
+    font-family: "carbonara" ;
+    src: url(carbonara.ttf);
+}
