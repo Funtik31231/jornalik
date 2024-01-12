@@ -272,7 +272,6 @@ function removeAllColumns(M, K) {
   var table = document.getElementById("downloadTable");
   var rows = table.getElementsByTagName("tr");
   
-  // delete all columns except the first and last
   for (var i = rows.length - 2; i > -1; i--) {
       var cells = rows[i].getElementsByTagName("td");
       for (var j = cells.length - 2; j > 0; j--) {

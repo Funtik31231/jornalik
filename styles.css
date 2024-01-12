@@ -14,7 +14,7 @@
 .list_menu a{
     font-family: Arial, sans-serif;
     font-size: 25px;
-    color: #95db95;
+    color: #facc97;
     border-left: 2px solid #ffffff;
     padding-left: 5px ;
     transition: all 0.2s ease;
@@ -51,7 +51,7 @@
 body {
     height: 100vh;
 
-    background-image: url(фончик.jpg);
+    background-image: url(pirple1.png);
     }
 
 .content {
@@ -108,7 +108,7 @@ input{
 
 .profile-pic {
     width: 200px; height: 200px; border-radius: 100%; 
-    background-image: url('ГОРИН.jpg');
+    background-image: url('круг.jpg');
     background-size: cover;
     background-position: center;
 }
